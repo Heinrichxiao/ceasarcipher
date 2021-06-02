@@ -23,7 +23,7 @@ def reverse(word):
         reversedword = reversedword + char
     return reversedword
 
-wordI = get_string("String: ")
-keyI = get_int("Key: ")
-print(reverse(ceasar_cipher(wordI, keyI)))
-print(ceasar_cipher(wordI, keyI))
+inputString = get_string("String: ")
+encryptionKey = get_int("Key: ")
+print(reverse(ceasar_cipher(inputString, encryptionKey)))
+print(ceasar_cipher(inputString, encryptionKey))
